@@ -182,6 +182,18 @@
         
       </div>
 
+      <div class="container-center">
+        <h3>More photos of our classrooms</h3>
+        <img class="mySlides" src="images/sm2.jpg">
+        <img class="mySlides" src="images/sm3.jpg">
+        <img class="mySlides" src="images/sm4.jpg">
+        <img class="mySlides" src="images/woodside1.jpg">
+        <img class="mySlides" src="images/woodside2.jpg">
+        <div class="slideButtons">
+          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+      </div>
   
       <figure class="img-dotted-bg">
         <img src="images/Daily Schedule.png" alt="Image" class="img-fluid">
@@ -286,3 +298,23 @@
 </body>
 
 </html>
+
+<script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
