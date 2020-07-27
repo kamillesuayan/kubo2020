@@ -74,6 +74,28 @@ body {
   outline: 0 !important;
 }
 
+.center {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  width: 45%;
+}
+
+.mySlides {
+  width:75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  
+}
+
+.container-center {
+  text-align: center;
+}
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -551,8 +573,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -7938,6 +7960,7 @@ button.bg-dark:focus {
 
 .mb-3,
 .my-3 {
+  margin-top: 1rem !important;
   margin-bottom: 1rem !important;
 }
 
@@ -10024,7 +10047,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .slider-item .slider-text h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
   line-height: 1.2;
   font-weight: 700 !important;
