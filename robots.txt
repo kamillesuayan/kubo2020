@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /Old Website/
+Disallow: /Website2019/
+Disallow: /Website2021/
+
+# Allow search engines to access all other content
+Allow: /
+
+# Sitemap for search engine indexing
+Sitemap: https://kubomontessori.com/sitemap.xml
+
